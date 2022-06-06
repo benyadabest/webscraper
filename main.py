@@ -20,8 +20,6 @@ driver.implicitly_wait(20)
 search2 = driver.find_element(by=By.LINK_TEXT, value="View Summary").click()
 
 tables = driver.find_element(by=By.TAG_NAME, value="table")
-tables.getText()
-
 
 
 time.sleep(8)
